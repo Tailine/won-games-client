@@ -7,12 +7,19 @@ export default {
   argTypes: {
     children: {
       type: 'string'
+    },
+    lineColor: {
+      options: ['primary', 'secondary'],
+      control: { type: 'radio' }
     }
   }
 } as Meta
 
-export const Basic: Story<HeadingProps> = (args) => <Heading {...args} />
+export const Basic: Story<HeadingProps> = (args) => (
+  <Heading {...args} color="black" />
+)
 
 Basic.args = {
-  children: 'Most Populars'
+  children: 'Most Populars',
+  color: 'black'
 }
