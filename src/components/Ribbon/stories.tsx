@@ -5,11 +5,21 @@ export default {
   title: 'Ribbon',
   component: Ribbon,
   args: {
-    children: 'Best Seller'
+    children: 'Best Seller',
+    color: 'primary',
+    size: 'normal'
   },
   argTypes: {
     children: {
       type: 'string'
+    },
+    color: {
+      options: ['primary', 'secondary'],
+      control: { type: 'radio' }
+    },
+    size: {
+      options: ['normal', 'small'],
+      control: { type: 'radio' }
     }
   }
 } as Meta
