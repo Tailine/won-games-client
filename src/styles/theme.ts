@@ -29,6 +29,7 @@ export default {
     black: '#030517',
     lightGray: '#EAEAEA',
     gray: '#8F8F8F',
+    mediumGray: '#BBBBBB',
     darkGray: '#2E2F42'
   },
   spacings: {
