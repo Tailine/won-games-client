@@ -4,15 +4,13 @@ import { render, screen } from '@testing-library/react'
 import Slider from '.'
 
 describe('<Slider />', () => {
-  it('should render the heading', () => {
+  it('should render slider with to items', () => {
     const { container } = render(
       <Slider settings={{ slidesToShow: 2 }}>
         <p>Item 1</p>
         <p>Item 2</p>
       </Slider>
     )
-
-    // screen.debug()
 
     expect(
       screen.getByText(/item 1/i).parentElement?.parentElement

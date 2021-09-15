@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Slider /> should render the heading 1`] = `
+exports[`<Slider /> should render slider with to items 1`] = `
 .c0 .slick-slider {
   position: relative;
   display: block;
