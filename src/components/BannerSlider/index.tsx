@@ -30,8 +30,6 @@ const BannerSlider = ({ items }: BannerSliderProps) => (
         <Banner key={item.title} {...item} />
       ))}
     </Slider>
-
-    <h1>BannerSlider</h1>
   </S.Wrapper>
 )
 
